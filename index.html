@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="Stylesheet" href="index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet -->
+</head>
+<body>
+
+<div class="home-page-content">
+    <section class="cart-content">
+      <div class="whole-content">
+
+        <div id="confirm-page" style="display: none;">
+
+          <img src="https://i.ibb.co/BZVjdfm/green-check-mark-icon-in-a-circle-free-vector.jpg" class="img-onr">
+          <h2 style="text-align: center;">Order Confirmed</h2>
+          <img src="https://i.ibb.co/CvYS8q6/5c231f415d3b7618bb30f007b15943a0.jpg" style="width: 150px; margin-left: 65px;">
+          <p style="text-align: center; color: rgb(196, 195, 195);">We hope you enjoy your food!</p>
+          <button type="submit" id="confirm-btn" style="margin-left: 30px;">Start New Order</button>
+
+        </div>
+    
+      <div class="Des">
+        <h2>Desserts</h2>
+      </div>
+
+  <div class="first-row">
+    <div class="content-one">
+      <div class="img">
+        <img src="./assets/images/image-waffle-mobile.jpg">
+        <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Waffle" data-price="5.50"><b>Add to Cart</b></button></p>
+       </div>
+       <div class="para-content">
+         <h4>Waffle with Berries</h4>
+         <p class="text">Waffle</p>
+         <h5 class="dollar">$6.50</h5>
+      </div>
+     </div>
+  
+     <div class="content-two">
+      <div class="img">
+        <img src="./assets/images/image-creme-brulee-mobile.jpg">
+        <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Crème Brûlée" data-price="4.00"><b>Add to Cart</b></button></p>
+       </div>
+       <div class="para-content">
+         <h4>Vanilla Bean Crème Brûlée</h4>
+         <p class="text">Crème Brûlée</p>
+         <h5 class="dollar">$7.00</h5>
+      </div>
+     </div>
+  
+     <div class="content-three">
+      <div class="img">
+        <img src="./assets/images/image-macaron-mobile.jpg">
+        <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Macaron" data-price="5.00"><b>Add to Cart</b></button></p>
+       </div>
+       <div class="para-content">
+         <h4>Macaron Mix of Five</h4>
+         <p class="text">Macaron</p>
+         <h5 class="dollar">$8.00</h5>
+      </div>
+     </div>
+  </div>
+    
+    <div class="second-row">
+      <div class="content-four">
+        <div class="img">
+          <img src="./assets/images/image-tiramisu-mobile.jpg">
+          <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Classic Tiramisu" data-price="5.50"><b>Add to Cart</b></button></p>
+         </div>
+         <div class="para-content">
+           <h4>Tiramisu</h4>
+           <p class="text">Classic Tiramisu</p>
+           <h5 class="dollar">$5.50</h5>
+        </div>
+       </div>
+    
+       <div class="content-five">
+        <div class="img">
+          <img src="./assets/images/image-baklava-mobile.jpg">
+          <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Pistachio Baklava" data-price="4.00"><b>Add to Cart</b></button></p>
+         </div>
+         <div class="para-content">
+           <h4>Baklava</h4>
+           <p class="text">Pistachio Baklava</p>
+           <h5 class="dollar">$4.00</h5>
+        </div>
+       </div>
+    
+       <div class="content-six">
+        <div class="img">
+          <img src="./assets/images/image-meringue-mobile.jpg">
+          <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Lemon Meringue Pie" data-price="5.00"><b>Add to Cart</b></button></p>
+         </div>
+         <div class="para-content">
+           <h4>Pie</h4>
+           <p class="text">Lemon Meringue Pie</p>
+           <h5 class="dollar">$5.00</h5>
+        </div>
+       </div>
+    </div>
+    
+    
+    <div class="third-row">
+      <div class="content-seven">
+        <div class="img">
+          <img src="./assets/images/image-cake-mobile.jpg">
+          <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Red Velvet Cake" data-price="4.50"><b>Add to Cart</b></button></p>
+         </div>
+         <div class="para-content">
+           <h4>Cake</h4>
+           <p class="text">Red Velvet Cake</p>
+           <h5 class="dollar">$4.50</h5>
+        </div>
+       </div>
+    
+       <div class="content-eight">
+        <div class="img">
+          <img src="./assets/images/image-brownie-mobile.jpg">
+          <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Salted Caramel Brownie" data-price="4.50"><b>Add to Cart</b></button></p>
+         </div>
+         <div class="para-content">
+           <h4>Brownie</h4>
+           <p class="text">Salted Caramel Brownie</p>
+           <h5 class="dollar">$4.50</h5>
+        </div>
+       </div>
+    
+       <div class="content-nine">
+        <div class="img">
+          <img src="./assets/images/image-panna-cotta-mobile.jpg">
+          <p class="add"><i class="fa-solid fa-cart-shopping"></i><button class="add-to-cart" data-name="Vanilla Panna Cotta" data-price="6.50"><b>Add to Cart</b></button></p>
+         </div>
+         <div class="para-content">
+           <h4>Panna Cotta</h4>
+           <p class="text">Vanilla Panna Cotta</p>
+           <h5 class="dollar">$6.50</h5>
+        </div>
+       </div>
+    </div>
+      </div>
+    </section>
+    
+    <section class="contenttwo">
+      <div class="cont-too">
+        <div class="cradit">
+          <h2 class="hell">Your cart</h2>
+         <div class="card-page">
+          <ul id="cart-items">
+           <img src="https://i.ibb.co/t2mr852/Whats-App-Image-2024-07-27-at-08-56-22-808a09c5.jpg">
+          </ul>
+          <p><b>Total: $</b><span id="cart-total">0.00</span></p>
+          <button id="confirm-order">Confirm</button>
+         </div>
+        </div>
+      </div>
+      </section>
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
